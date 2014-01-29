@@ -6,4 +6,8 @@ node_modules
 bower_components
 libs
 
+common.bundles/*/*
+!common.bundles/.bem/*
+!common.bundles/*/*.bemdecl.js
+
 /*.specs
