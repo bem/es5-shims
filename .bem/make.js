@@ -9,8 +9,7 @@ require('./nodes')(MAKE);
 try {
     require(environ.getLibPath('bem-pr', 'bem/nodes'))(MAKE);
 } catch(e) {
-    if(e.code !== 'MODULE_NOT_FOUND')
-        throw e;
+    if(e.code !== 'MODULE_NOT_FOUND') throw e;
     require('bem/lib/logger').warn('"bem-pr" is not installer');
 }
 
@@ -62,12 +61,9 @@ MAKE.decl('BundleNode', {
      */
     getTechs : function() {
         return [
-            'bemjson.js',
             'bemdecl.js',
             'deps.js',
-            'bemhtml',
-            'browser.js+bemhtml',
-            'html'
+            'js'
         ];
     },
 
@@ -95,7 +91,7 @@ MAKE.decl('BundleNode', {
         });
     },
 
-    getDesktopLevels : function() {
+    getCommonLevels : function() {
         return [
             'common.blocks'
         ];
