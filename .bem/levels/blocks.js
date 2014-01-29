@@ -31,8 +31,6 @@ exports.getTechs = function() {
         'spec.bemjson.js'
     ].forEach(getTechResolver(techs, BEMPR_TECHS));
 
-    ['roole'].forEach(getTechResolver(techs, PRJ_TECHS));
-
     return techs;
 };
 

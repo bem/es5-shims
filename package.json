@@ -2,7 +2,7 @@
   "name": "es5-shim",
   "version": "0.0.1",
   "private": true,
-  "description": "es5 shim",
+  "description": "BEM ES5 shim",
   "repository": {
     "type": "git",
     "url": "git://github.com/bem/es5-shim.git"
@@ -11,9 +11,7 @@
   "author": "Dmitry Filatov <dfilatov@yandex-team.ru>",
   "license": "MIT",
   "dependencies": {
-    "bem-environ": "~1.4.0",
-    "q": "~0.9.7",
-    "borschik": "~0.4.0"
+    "bem-environ": "~1.4.0"
   },
   "devDependencies": {
     "bem": "~0.7.2",
