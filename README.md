@@ -1,5 +1,6 @@
 es5-shim
 ========
+
 This module provides shim for some commonly used ES5 methods.
 
 ```js
