@@ -1,5 +1,5 @@
-es5-shim
-========
+es5-shims
+=========
 
 This module provides shim for some commonly used ES5 methods.
 

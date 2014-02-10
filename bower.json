@@ -1,7 +1,7 @@
 {
-  "name": "bem-es5-shim",
+  "name": "es5-shims",
   "version": "0.0.1",
-  "description": "BEM ES5 shim",
+  "description": "ECMAScript 5 shims",
   "bugs": "https://github.com/bem/es5-shims/issues",
   "ignore": [
     ".bem/cache",
