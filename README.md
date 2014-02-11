@@ -41,13 +41,13 @@ Add `es5-shims` to your project's `bower.json` config:
 
 ```json
 {
-  "dependencies": [
+  "dependencies": {
     "es5-shims": "bem/es5-shims~0.0.1"
-  ]
+  }
 }
 ```
 
-Define shims that you need in your block's deps:
+Define shims that you need as your block's dependencies:
 
 ```js
 // prj/common.blocks/link/link.deps.js
