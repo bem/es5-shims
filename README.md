@@ -22,3 +22,51 @@ Function.prototype.bind
   
 String.prototype.trim
 ```
+
+## Usage
+
+You could use `es5-shims` as a standalone JS-library or as a BEM-library.
+
+### As standalone library
+
+Add JS-file from Yandex CDN:
+
+```html
+<script src="http://yandex.st/es5-shims/0.0.1/es5-shims.min.js"></script>>
+```
+
+### As BEM library
+
+Add `es5-shims` to your project's `bower.json` config:
+
+```json
+{
+  "dependencies": [
+    "es5-shims": "bem/es5-shims~0.0.1"
+  ]
+}
+```
+
+Define shims that you need in your block's deps:
+
+```js
+// prj/common.blocks/link/link.deps.js
+
+({
+    mustDeps : [
+        {
+            block : 'ecma',
+            elem : [
+                'array',
+                'function',
+                'json',
+                'object',
+                'string'
+            ]
+        }
+    ]
+})
+```
+
+*Don't forget to configure your build system, so it could find blocks from `es5-shims/common.blocks`.*
+
