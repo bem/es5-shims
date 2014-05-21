@@ -32,7 +32,7 @@ You could use `es5-shims` as a standalone JS-library or as a BEM-library.
 Add JS-file from Yandex CDN:
 
 ```html
-<script src="http://yandex.st/es5-shims/0.0.1/es5-shims.min.js"></script>>
+<script src="http://yastatic.net/es5-shims/0.0.1/es5-shims.min.js"></script>>
 ```
 
 ### As BEM library
