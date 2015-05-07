@@ -4,7 +4,6 @@ exports.blocks = [
         elems : [
             'array',
             'function',
-            'json',
             'object',
             'string'
         ]
