@@ -12,14 +12,14 @@ Array.prototype.reduce
 Array.prototype.some
 Array.prototype.every
 Array.isArray
-  
+
 Object.keys
-  
+
 JSON.stringify
 JSON.parse
-  
+
 Function.prototype.bind
-  
+
 String.prototype.trim
 ```
 

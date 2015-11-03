@@ -7,7 +7,11 @@
     "type": "git",
     "url": "git://github.com/bem/es5-shims.git"
   },
-  "keywords": ["bem", "es5", "shim"],
+  "keywords": [
+    "bem",
+    "es5",
+    "shim"
+  ],
   "author": "Dmitry Filatov <dfilatov@yandex-team.ru>",
   "license": "MIT",
   "dependencies": {
@@ -15,11 +19,12 @@
   },
   "devDependencies": {
     "bem": "~0.7.2",
-    "jshint": "2.3.0",
-    "jshint-groups": "0.5.3",
-    "jscs": "1.0.11",
+    "bower-npm-install": "~0.5.2",
     "git-hooks": "0.0.3",
-    "bower-npm-install": "~0.5.2"
+    "jscs": "2.5.0",
+    "jscs-bem": "^0.2.0",
+    "jshint": "2.3.0",
+    "jshint-groups": "0.5.3"
   },
   "scripts": {
     "test": "npm run lint && npm run unit",
