@@ -106,8 +106,9 @@ MAKE.decl('SpecNode', {
 
     getLevels : function() {
         return [
-            'libs/bem-core/common.blocks',
-            'common.blocks'
+            'spec.blocks',
+            'common.blocks',
+            'libs/bem-core/common.blocks'
         ]
         .map(function(path) { return PATH.resolve(this.root, path); }, this)
         .concat(environ.getLibPath('bem-pr', 'spec.blocks'));
