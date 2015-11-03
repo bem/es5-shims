@@ -1,7 +1,7 @@
 modules.define('spec', ['sinon'], function(provide, sinon) {
 
 describe('ecma__date', function() {
-    describe('#now', function() {
+    describe('now', function() {
         afterEach(function() {
             var getTime = Date.prototype.getTime;
             getTime.restore && getTime.restore();
