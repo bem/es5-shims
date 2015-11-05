@@ -1,0 +1,15 @@
+{
+    "plugins": ["jscs-bem"],
+    "preset": "bem",
+
+    "excludeFiles": [
+        ".bem/cache/**",
+        ".git/**",
+        "libs/**",
+        "node_modules/**",
+        "*.bundles/**",
+        "*.specs/**",
+        "common.blocks/ecma/__array/ecma__array.spec.js"
+    ],
+    "fileExtensions": [".js"]
+}

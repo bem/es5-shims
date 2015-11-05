@@ -49,7 +49,6 @@ MAKE.decl('SetsNode', {
 
 });
 
-
 MAKE.decl('BundleNode', {
 
     /**
@@ -81,7 +80,7 @@ MAKE.decl('BundleNode', {
         return [
             'common.blocks'
         ]
-        .map(function(path) { return resolve(path) })
+        .map(function(path) { return resolve(path); })
         .concat(resolve(PATH.dirname(this.getNodePrefix()), 'blocks'));
     }
 });
@@ -110,7 +109,7 @@ MAKE.decl('SpecNode', {
             'libs/bem-core/common.blocks',
             'common.blocks'
         ]
-        .map(function(path) { return PATH.resolve(this.root, path) }, this)
+        .map(function(path) { return PATH.resolve(this.root, path); }, this)
         .concat(environ.getLibPath('bem-pr', 'spec.blocks'));
     }
 
