@@ -28,7 +28,8 @@
     "phantomjs": "^1.9.18"
   },
   "scripts": {
-    "test": "npm run lint && npm run unit",
+    "test": "npm run unit",
+    "pretest": "npm run lint",
     "lint": "jshint-groups && jscs .",
     "unit": "bower-npm-install && bem make common.specs"
   }
