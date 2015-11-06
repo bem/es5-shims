@@ -13,6 +13,8 @@ Array.prototype.some
 Array.prototype.every
 Array.isArray
 
+Date.now
+
 Object.keys
 
 JSON.stringify
@@ -58,6 +60,7 @@ Define shims that you need as your block's dependencies:
             block : 'ecma',
             elem : [
                 'array',
+                'date',
                 'function',
                 'json',
                 'object',

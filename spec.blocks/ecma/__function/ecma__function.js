@@ -1,0 +1,1 @@
+delete Function.prototype.bind;
