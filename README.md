@@ -34,7 +34,7 @@ You could use `es5-shims` as a standalone JS-library or as a BEM-library.
 Add JS-file from Yandex CDN:
 
 ```html
-<script src="http://yastatic.net/es5-shims/0.0.1/es5-shims.min.js"></script>
+<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 ```
 
 ### As BEM library
@@ -44,7 +44,7 @@ Add `es5-shims` to your project's `bower.json` config:
 ```json
 {
   "dependencies": {
-    "es5-shims": "bem/es5-shims~0.0.1"
+    "es5-shims": "bem/es5-shims~0.0.2"
   }
 }
 ```
@@ -72,4 +72,3 @@ Define shims that you need as your block's dependencies:
 ```
 
 *Don't forget to configure your build system, so it could find blocks from `es5-shims/common.blocks`.*
-
